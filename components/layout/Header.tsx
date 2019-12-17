@@ -4,27 +4,24 @@ import styled from 'styled-components'
 const Footer = () => {
   return (
     <HeaderContainer>
-      <Link href='/'>
         <Li>
-          <a >home</a>
+          <Link href='/'><a >MeshiMeshi</a></Link>
         </Li>
-      </Link>
-      <Link href='/search'>
         <Li>
-          <a >search</a>
+          <Link href='/'><a >home</a></Link>
         </Li>
-      </Link>
+        <Li>
+          <Link href='/search'><a >search</a></Link>
+        </Li>
     </HeaderContainer>
   )
 }
 
 const HeaderContainer = styled.ul`
   position: fixed;
-  bottom: 0;
+  top: 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
   height: 44px;
   background-color: #fff;
 `
@@ -33,7 +30,7 @@ const Li = styled.li`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #d5d5d5;
+  padding: 0 8px;
   width: 100%;
   height: 100%;
 `
