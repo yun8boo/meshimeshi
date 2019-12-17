@@ -4,7 +4,10 @@
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@now/next"
+      "use": "@now/next",
+      "env": {
+        "GURUNAVI_API_KEY": "@gurunavi_api_key"
+      }
     }
   ],
   "routes": [
