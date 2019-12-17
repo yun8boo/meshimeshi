@@ -4,12 +4,14 @@
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@now/next",
-      "env": {
-        "GURUNAVI_API_KEY": "@gurunavi_api_key"
-      }
+      "use": "@now/next"
     }
   ],
+  "build":{
+    "env": {
+      "GURUNAVI_API_KEY": "@gurunavi_api_key"
+    }
+  },
   "routes": [
     {
       "src": "/(.*)",
