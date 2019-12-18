@@ -14,7 +14,6 @@ const SearchContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 44px;
-  height: calc(100vh - 44px);
 `
 
 export default search

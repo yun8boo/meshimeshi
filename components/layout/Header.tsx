@@ -8,9 +8,6 @@ const Footer = () => {
           <Link href='/'><a >MeshiMeshi</a></Link>
         </Li>
         <Li>
-          <Link href='/'><a >home</a></Link>
-        </Li>
-        <Li>
           <Link href='/search'><a >search</a></Link>
         </Li>
     </HeaderContainer>
