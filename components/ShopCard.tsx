@@ -29,14 +29,19 @@ const ShopCard = (props: {randomRest: any}) => {
 const RestWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
 `
 
 const ImageWrapper = styled.div`
+  width: 60%;
+  @media (max-width: 559px) {
+    width: 100%; 
+  }
 `
 
 const Image = styled.img`
-  width: 100%;
+  width: 100%; 
 `
 
 const ShopDetailContainer = styled.div`
